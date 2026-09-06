@@ -1,0 +1,12 @@
+.workspace-grid {
+  align-items: start;
+}
+
+.graph-card,
+.right-rail {
+  align-self: start;
+}
+
+.breakdown-card {
+  flex: none;
+}
