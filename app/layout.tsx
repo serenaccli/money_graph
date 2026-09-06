@@ -16,17 +16,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'MoneyGraph — Follow the dollar',
   description: 'See where your income really goes and who ultimately gets it.',
-  metadataBase: new URL('https://moneygraph-flow.serena-cc-cat.chatgpt.site'),
   openGraph: {
     title: 'MoneyGraph — Follow the dollar',
     description: 'See where your income really goes and who ultimately gets it.',
-    images: ['/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'MoneyGraph — Follow the dollar',
     description: 'See where your income really goes and who ultimately gets it.',
-    images: ['/og.png'],
   },
 };
 
