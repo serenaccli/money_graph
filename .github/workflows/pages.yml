@@ -33,6 +33,11 @@ jobs:
       - name: Build static site
         run: npm run build
 
+      - name: Place assets at the Pages mount root
+        run: |
+          mv dist/client/money_graph/_next dist/client/_next
+          rmdir dist/client/money_graph
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
